@@ -9,7 +9,7 @@ public class exercicio_20 {
 		Scanner entrada = new Scanner(System.in);
 		
 		System.out.println("Escolha o Combustível:");
-		System.out.printf("1 - Álcool %n2 - Gasolina %n3 - Diesel %n4 - Fim %n ");
+		System.out.printf("1 - Álcool %n2 - Gasolina %n3 - Diesel %n4 - Fim %n8 ");
 		
 		int tipoCombustivel = entrada.nextInt(); 
 		int Alcool = 0;
