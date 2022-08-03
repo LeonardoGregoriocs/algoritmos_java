@@ -2,26 +2,20 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicio_31 {
+public class Exercicio_34 {
 
 	public static void main(String[] args) {
-		
+
 		Scanner entrada = new Scanner(System.in);
 		
 		int numero = entrada.nextInt();
-		int in = 0, out = 0;
 		
+		int fatorial = 1;
 		for (int i=1; i<=numero; i++) {
-			int valor = entrada.nextInt();
-			if (valor >= 10 && valor <= 20){
-				in += 1;
-			} else {
-				out += 1;
-			}
-			
+			fatorial = fatorial * i;
 		}
 		
-		System.out.printf("%d in %n%d out", in, out);
+		System.out.println(fatorial);
 		
 		entrada.close();
 	}

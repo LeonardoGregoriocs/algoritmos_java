@@ -2,18 +2,18 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicio_21 {
-
+public class Exercicio_16 {
+	
 	public static void main(String[] args) {
 		
 		Scanner entrada = new Scanner(System.in);
 		
-		int numero = entrada.nextInt();
-		int soma = 0;
+		int x = entrada.nextInt();
 		
-		for (int i=0; i<numero; i++) {
-			int x = entrada.nextInt();
+		int soma = 0;
+		while (x != 0) {
 			soma = soma + x;
+			x = entrada.nextInt();
 		}
 		
 		System.out.println(soma);
@@ -21,5 +21,4 @@ public class exercicio_21 {
 		entrada.close();
 
 	}
-
 }

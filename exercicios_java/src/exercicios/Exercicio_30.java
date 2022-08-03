@@ -2,7 +2,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicio_9 {
+public class Exercicio_30 {
 
 	public static void main(String[] args) {
 		
@@ -10,10 +10,10 @@ public class exercicio_9 {
 		
 		int numero = entrada.nextInt();
 		
-		if (numero % 2 == 0) {
-			System.out.println("PAR");
-		} else {
-			System.out.println("IMPAR");
+		for (int i=1; i <= numero; i++) {
+			if (i % 2 != 0) {
+				System.out.println(i);
+			}
 		}
 		
 		entrada.close();
